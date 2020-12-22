@@ -1,0 +1,17 @@
+{
+  "name": "Cognitive-distortions",
+  "version": "0.1.0",
+  "description": "Simple landing page with desription of congnitive distortions.",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "surge": "^0.21.7"
+  },
+  "author": "Mitya Dementiy",
+  "license": "ISC"
+}
