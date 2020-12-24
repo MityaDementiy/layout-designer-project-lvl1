@@ -1,1 +1,9 @@
 /** CSS STYLE **/
+
+.landing-section {
+    max-width: 1110px;
+    border: 1px dotted;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
