@@ -1,9 +1,49 @@
 /** CSS STYLE **/
 
+:root {
+    --white: #fff;
+    --semitransparent-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --main-dark: #42413c;
+    --dark: #2a2626;
+    --semitransparent-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
 .section {
     max-width: 1110px;
     border: 1px dotted;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+    font-size: 72px;
+    color: #2A2626;
+}
+
+h2 {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+    font-size: 60px;
+    color: #2A2626;
+}
+
+h3 {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+    font-size: 34px;
+    color: #2A2626;
+}
+
+p {
+    font-family: 'Open Sans';
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #2A2626;
 }
