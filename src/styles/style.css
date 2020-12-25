@@ -13,7 +13,7 @@
 }
 
 .section {
-    max-width: 1110px;
+    max-width: 1440px;
     border: 1px dotted;
     margin: auto;
     margin-top: 100px;
@@ -47,3 +47,22 @@ p {
     font-size: 16px;
     color: #2A2626;
 }
+
+.header {
+    height: 914px;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    background-image: url(../../assets/images/background.png);
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
