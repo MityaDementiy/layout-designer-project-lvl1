@@ -98,3 +98,21 @@ p {
 .text-desription-block {
     width: 540px;
 }
+
+.header-button {
+    position: absolute;
+    left: 675px;
+    top: 805px;
+    width: 148px;
+    height: 49px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    background: var(--primary);
+    border: 0;
+}
+
+.header-button:hover {
+    color: var(--semitransparent-white);
+    background: var(--primary-dark);
+}
