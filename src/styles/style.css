@@ -4,8 +4,8 @@
     --white: #fff;
     --semitransparent-white: #d7ccc0;
     --light: #f5f4f0;
-    --main: #fe8a02;
-    --main-dark: #42413c;
+    --primary: #fe8a02;
+    --primary-dark: #42413c;
     --dark: #2a2626;
     --semitransparent-dark: #908d8b;
     --brown: #b09a81;
@@ -24,21 +24,18 @@ h1 {
     font-family: 'Neucha';
     line-height: 1.2em;
     font-size: 72px;
-    color: #2A2626;
 }
 
 h2 {
     font-family: 'Neucha';
     line-height: 1.2em;
     font-size: 60px;
-    color: #2A2626;
 }
 
 h3 {
     font-family: 'Neucha';
     line-height: 1.2em;
     font-size: 34px;
-    color: #2A2626;
 }
 
 p {
@@ -56,7 +53,7 @@ p {
 .header::before {
     content: "";
     background-image: url(../../assets/images/background.png);
-    opacity: 0.9;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -66,3 +63,17 @@ p {
     background-repeat: no-repeat;
     background-size: cover; 
   }
+
+  .main-title {
+      position: absolute;
+      left: 165px;
+      top: 100px;
+      color: var(--primary);
+  }
+
+  .dark-title {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+    font-size: 72px;
+    color: var(--dark);
+}
