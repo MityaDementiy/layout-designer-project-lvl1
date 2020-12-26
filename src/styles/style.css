@@ -13,10 +13,10 @@
 }
 
 .section {
-    max-width: 1440px;
+    width: 1440px;
+    height: 914px;
     border: 1px dotted;
     margin: auto;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -61,14 +61,17 @@ p {
     position: absolute;
     z-index: -1;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    background-color: var(--brown);
   }
 
   .main-title {
       position: absolute;
-      left: 165px;
+      left: 135px;
       top: 100px;
       color: var(--primary);
+      margin: 0;
+      margin-top: 5px;
   }
 
   .dark-title {
@@ -76,4 +79,22 @@ p {
     line-height: 1.2em;
     font-size: 72px;
     color: var(--dark);
+}
+
+.header-image {
+    position: relative;
+    height: 525px;
+    top: 55px;
+    left: 461px;
+}
+
+.text-description {
+    display: flex;
+    position: absolute;
+    left: 135px;
+    top: 573px;
+}
+
+.text-desription-block {
+    width: 540px;
 }
