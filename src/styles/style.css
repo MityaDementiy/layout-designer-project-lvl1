@@ -1,118 +1,138 @@
 /** CSS STYLE **/
 
 :root {
-    --white: #fff;
-    --semitransparent-white: #d7ccc0;
-    --light: #f5f4f0;
-    --primary: #fe8a02;
-    --primary-dark: #42413c;
-    --dark: #2a2626;
-    --semitransparent-dark: #908d8b;
-    --brown: #b09a81;
-    --blue: #1085c5;
+  --white: #fff;
+  --semitransparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --primary-dark: #42413c;
+  --dark: #2a2626;
+  --semitransparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
 }
 
 .section {
-    width: 1440px;
-    border: 1px dotted;
-    margin: auto;
-    margin-bottom: 100px;
+  width: 1440px;
+
+  margin: auto;
+
+  margin-bottom: 100px;
+
+  border: 1px dotted;
 }
 
 h1 {
-    font-family: 'Neucha';
-    line-height: 1.2em;
-    font-size: 72px;
+  font-size: 72px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
 h2 {
-    font-family: 'Neucha';
-    line-height: 1.2em;
-    font-size: 60px;
+  font-size: 60px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
 h3 {
-    font-family: 'Neucha';
-    line-height: 1.2em;
-    font-size: 34px;
+  font-size: 34px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
 p {
-    font-family: 'Open Sans';
-    line-height: 1.6em;
-    font-size: 16px;
-    color: #2A2626;
+  color: #2a2626;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
 }
 
 .header {
-    height: 914px;
-    position: relative;
+  position: relative;
+
+  height: 914px;
 }
 
 .header::before {
-    content: "";
-    background-image: url(../../assets/images/background.png);
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--brown);
-  }
+  position: absolute;
 
-  .main-title {
-      position: absolute;
-      left: 135px;
-      top: 100px;
-      color: var(--primary);
-      margin: 0;
-      margin-top: 5px;
-  }
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
-  .dark-title {
-    font-family: 'Neucha';
-    line-height: 1.2em;
-    font-size: 72px;
-    color: var(--dark);
+  z-index: -1;
+
+  background-color: var(--brown);
+
+  background-image: url(../../assets/images/background.png);
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.main-title {
+  position: absolute;
+  top: 100px;
+  left: 135px;
+
+  margin: 0;
+  margin-top: 5px;
+
+  color: var(--primary);
+}
+
+.dark-title {
+  color: var(--dark);
+  font-size: 72px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
 }
 
 .header-image {
-    position: relative;
-    height: 525px;
-    top: 55px;
-    left: 461px;
-    z-index: -1;
+  position: relative;
+  top: 55px;
+  left: 461px;
+  z-index: -1;
+
+  height: 525px;
 }
 
 .text-description {
-    display: flex;
-    position: absolute;
-    left: 135px;
-    top: 573px;
+  position: absolute;
+  top: 573px;
+  left: 135px;
+
+  display: flex;
 }
 
 .text-desription-block {
-    width: 540px;
+  width: 540px;
 }
 
 .header-button {
-    position: absolute;
-    left: 675px;
-    top: 805px;
-    width: 148px;
-    height: 49px;
-    color: var(--white);
-    font-size: 16px;
-    font-weight: 700;
-    background: var(--primary);
-    border: 0;
+  position: absolute;
+  top: 805px;
+  left: 675px;
+
+  width: 148px;
+  height: 49px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+
+  background: var(--primary);
+  border: 0;
 }
 
 .header-button:hover {
-    color: var(--semitransparent-white);
-    background: var(--primary-dark);
+  color: var(--semitransparent-white);
+
+  background: var(--primary-dark);
 }
