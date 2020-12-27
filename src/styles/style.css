@@ -85,6 +85,7 @@ p {
     height: 525px;
     top: 55px;
     left: 461px;
+    z-index: -1;
 }
 
 .text-description {
