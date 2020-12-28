@@ -12,8 +12,25 @@
   --blue: #1085c5;
 }
 
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .section {
-  width: 1440px;
+  max-width: 1110px;
 
   margin: auto;
 
@@ -42,8 +59,6 @@ h3 {
 
 p {
   color: #2a2626;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
 }
 
