@@ -117,20 +117,20 @@ p {
 
 .text-description {
   position: relative;
-  top: 273px;
+  top: 200px;
   left: 30px;
 
   display: flex;
 }
 
 .text-desription-block {
-  /* width: 540px; */
   flex: 1;
+  margin-right: 30px;
 }
 
 .header-button {
   position: relative;
-  top: 300px;
+  top: 215px;
   left: 585px;
 
   padding: 12px 24px;
