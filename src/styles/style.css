@@ -126,8 +126,7 @@ p {
   top: -255px;
   left: 705px;
 
-  width: 148px;
-  height: 49px;
+  padding: 12px 24px;
 
   color: var(--white);
   font-weight: 700;
