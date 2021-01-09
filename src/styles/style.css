@@ -42,6 +42,10 @@ body {
   margin-bottom: 100px;
 }
 
+.header {
+  margin-bottom: 525px;
+}
+
 h1 {
   font-size: 72px;
   font-family: 'Neucha', sans-serif;
@@ -146,4 +150,25 @@ p {
   color: var(--semitransparent-white);
 
   background: var(--primary-dark);
+}
+
+.centered-title {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.primary-colored-title {
+  color: var(--primary);
+}
+
+.centered-description {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
 }
