@@ -188,3 +188,16 @@ p {
 
   background-color: var(--primary-dark);
 }
+
+.nav-cards {
+  display: flex;
+}
+
+.nav-header {
+  color: var(--primary);
+  font-size: 52px;
+}
+
+.light-title {
+  color: var(--light);
+}
