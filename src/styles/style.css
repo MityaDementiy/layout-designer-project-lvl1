@@ -50,7 +50,6 @@ h1 {
   font-size: 72px;
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
-  white-space: nowrap;
 }
 
 h2 {
@@ -68,6 +67,10 @@ h3 {
 p {
   color: #2a2626;
   line-height: 1.6em;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .header::before {
@@ -191,6 +194,13 @@ p {
 
 .nav-cards {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-header-container {
+  width: 350px;
+  margin-right: 10px;
 }
 
 .nav-header {
@@ -198,6 +208,52 @@ p {
   font-size: 52px;
 }
 
+.nav-card {
+  width: 350px;
+  margin-left: 30px;
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+.nav-card h3 {
+  color: var(--primary);
+}
+
+.nav-card:hover {
+  background-color: var(--primary);
+}
+
+.nav-card:hover div {
+  color: var(--white);
+}
+
+.nav-card:hover h3 {
+  color: var(--white);
+}
+
+.nav-card:hover p {
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
 .light-title {
   color: var(--light);
+}
+
+.card-number {
+  margin-bottom: 40px;
+
+  color: var(--primary-dark);
+
+  font-size: 64px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1;
+}
+
+#third-nav-card {
+  margin-left: 0;
 }
