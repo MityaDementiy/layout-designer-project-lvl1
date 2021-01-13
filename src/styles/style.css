@@ -200,10 +200,11 @@ p {
 
 .nav-header-container {
   width: 350px;
-  margin-right: 10px;
 }
 
 .nav-header {
+  margin-right: 10px;
+
   color: var(--primary);
   font-size: 52px;
 }
