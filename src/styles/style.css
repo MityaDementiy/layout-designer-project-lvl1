@@ -313,3 +313,29 @@ a {
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
+
+.distortion-header {
+  color: var(--white);
+
+  font-weight: bold;
+
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+}
+
+.distortion-header-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  padding-left: 5px;
+
+  background-color: var(--brown);
+}
+
+.description-text {
+  flex: 1;
+}
