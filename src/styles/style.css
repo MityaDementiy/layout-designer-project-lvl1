@@ -28,23 +28,27 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.relative {
   position: relative;
+}
 
+.container {
   width: 100%;
   max-width: 1110px;
   margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   /* border: 1px dotted; */
 }
 
-.content-block {
+/* .content-block {
   margin-bottom: 100px;
-}
+} */
 
-.header {
+/* .header {
   margin-bottom: 425px;
-}
+} */
 
 h1 {
   font-weight: normal;
@@ -103,7 +107,7 @@ p {
 }
 
 .main-title {
-  margin-top: 110px;
+  /* margin-top: 110px; */
 
   color: var(--primary);
 }
@@ -117,9 +121,9 @@ p {
 
 .header-image {
   position: absolute;
-  top: -55px;
+  top: 55px;
 
-  right: -325px;
+  right: -270px;
 
   z-index: -1;
 }
