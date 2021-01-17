@@ -292,8 +292,6 @@ a {
 
   z-index: -10;
 
-  /* background-color: var(--brown); */
-
   background-image: url(../../assets/images/background.png);
 
   background-repeat: no-repeat;
@@ -317,6 +315,8 @@ a {
 
   background-color: var(--light);
   background-position: center center;
+
+  content: "";
 }
 
 .distortion-description {
