@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -40,6 +41,10 @@ body {
   padding-bottom: 100px;
 
   /* border: 1px dotted; */
+}
+
+.about {
+
 }
 
 /* .content-block {
@@ -129,22 +134,23 @@ p {
 }
 
 .text-description {
-  position: relative;
-  top: 200px;
 
   display: flex;
+  margin-top: 185px;
 }
 
 .text-desription-block {
   flex: 1;
   margin-right: 30px;
+  padding-top: 16px;
+}
+
+.header p {
+  margin-top: 16px;
 }
 
 .header-button {
-  position: relative;
-  top: 215px;
-  left: 555px;
-
+  margin-top: 40px;
   padding: 12px 24px;
 
   color: var(--white);
@@ -272,9 +278,9 @@ a {
   padding-bottom: 100px;
 }
 
-#ikea-effect {
+/* #ikea-effect {
   margin-bottom: 9px;
-}
+} */
 
 #ikea-effect::before {
   position: absolute;
