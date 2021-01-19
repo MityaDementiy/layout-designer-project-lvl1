@@ -439,3 +439,40 @@ a {
 
   text-transform: uppercase;
 }
+
+#distortion-of-novelty::before {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: -10;
+
+  background-image: url(../../src/assets/images/background.png);
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+#distortion-of-novelty::after {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: -20;
+
+  background-color: var(--light);
+  background-position: center center;
+
+  content: "";
+}
