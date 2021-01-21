@@ -550,3 +550,11 @@ a {
 
   content: "";
 }
+
+.feedback-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 55px;
+
+  background-color: var(--primary-dark);
+}
