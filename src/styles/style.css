@@ -558,3 +558,20 @@ a {
 
   background-color: var(--primary-dark);
 }
+
+.subscription-form {
+  display: flex;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .subscription-form-label {
+
+}
+
+.subscription-form-button {
+
+} */
