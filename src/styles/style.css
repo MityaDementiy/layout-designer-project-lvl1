@@ -200,7 +200,8 @@ p {
 
 .nav-block {
   margin-bottom: 0;
-  padding: 100px;
+
+  padding-top: 100px;
 
   background-color: var(--primary-dark);
 }
