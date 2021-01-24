@@ -3,4 +3,4 @@
 
 ___
 
-[Project URL](http://mitya-dementiy-layout-designer-lvl1.surge.sh/src/index.html)
+Discover landing page: [URL](http://mitya-dementiy-layout-designer-lvl1.surge.sh/src/index.html)
