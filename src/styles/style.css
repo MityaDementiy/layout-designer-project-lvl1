@@ -85,7 +85,7 @@ p {
 
   z-index: -10;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -290,7 +290,7 @@ a {
 
   z-index: -10;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -379,7 +379,7 @@ a {
 
   z-index: -1;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -453,7 +453,7 @@ a {
 
   z-index: -10;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -490,7 +490,7 @@ a {
 
   z-index: -1;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -527,7 +527,7 @@ a {
 
   z-index: -10;
 
-  background-image: url(../../src/assets/images/background.png);
+  background-image: url(../../src/images/background.png);
 
   background-repeat: no-repeat;
 
@@ -610,7 +610,7 @@ a {
   width: 25px;
   height: 25px;
 
-  background-image: url(../../src/assets/images/send.svg);
+  background-image: url(../../src/images/send.svg);
 
   background-size: cover;
 
