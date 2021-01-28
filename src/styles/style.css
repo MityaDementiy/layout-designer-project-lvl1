@@ -180,6 +180,10 @@ p {
 .centered-description {
   margin-bottom: 35px;
 
+  color: var(--dark);
+  font-size: 16px;
+  line-height: 25px;
+
   text-align: center;
 }
 
