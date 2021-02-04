@@ -183,7 +183,9 @@ p {
   margin-bottom: 30px;
 
   color: var(--dark);
+  font-weight: normal;
   font-size: 16px;
+  line-height: 25.6px;
 }
 
 .video {
