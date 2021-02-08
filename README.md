@@ -3,4 +3,4 @@
 
 ___
 
-Discover landing page: [URL](http://mitya-dementiy-layout-designer-lvl1.surge.sh/)
+Discover landing page: [URL](http://silly-locket.surge.sh/)
