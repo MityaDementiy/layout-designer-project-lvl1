@@ -41,7 +41,7 @@ body {
   padding-bottom: 100px;
 }
 
-.header {
+.overflowx-hidden {
   overflow-x: hidden;
 }
 
@@ -75,7 +75,7 @@ p {
   white-space: nowrap;
 }
 
-.header::before {
+header::before {
   position: absolute;
 
   top: 0;
@@ -96,7 +96,7 @@ p {
   content: "";
 }
 
-.header::after {
+header::after {
   position: absolute;
 
   top: 0;
