@@ -71,6 +71,10 @@ p {
   line-height: 1.6em;
 }
 
+.image-shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
 .nowrap {
   white-space: nowrap;
 }
