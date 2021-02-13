@@ -183,13 +183,8 @@ header::after {
   margin-bottom: 30px;
 }
 
-.centered-description {
-  margin-bottom: 30px;
-
+.color-dark {
   color: var(--dark);
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 25.6px;
 }
 
 .video {
