@@ -307,7 +307,7 @@ header::after {
   padding-bottom: 100px;
 }
 
-#ikea-effect::before {
+.distortion-background-image::before {
   position: absolute;
 
   top: 0;
@@ -328,7 +328,7 @@ header::after {
   content: "";
 }
 
-#ikea-effect::after {
+.distortion-background-light::after {
   position: absolute;
 
   top: 0;
@@ -380,28 +380,7 @@ header::after {
   background-color: var(--brown);
 }
 
-#premature-optimization::before {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -1;
-
-  background-image: url(../images/background.png);
-
-  background-repeat: no-repeat;
-
-  background-size: cover;
-
-  opacity: 0.1;
-
-  content: "";
-}
-
-#premature-optimization::after {
+.distortion-background-dark::after {
   position: absolute;
 
   top: 0;
@@ -444,117 +423,6 @@ header::after {
   line-height: 17px;
 
   text-transform: uppercase;
-}
-
-#distortion-of-novelty::before {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -10;
-
-  background-image: url(../images/background.png);
-
-  background-repeat: no-repeat;
-
-  background-size: cover;
-
-  opacity: 0.1;
-
-  content: "";
-}
-
-#distortion-of-novelty::after {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -20;
-
-  background-color: var(--light);
-  background-position: center center;
-
-  content: "";
-}
-
-#hyperbolic-depreciation::before {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -1;
-
-  background-image: url(../images/background.png);
-
-  background-repeat: no-repeat;
-
-  background-size: cover;
-
-  opacity: 0.1;
-
-  content: "";
-}
-
-#hyperbolic-depreciation::after {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -20;
-
-  background-color: var(--brown);
-  background-position: center center;
-
-  content: "";
-}
-
-#errors-in-planning::before {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -10;
-
-  background-image: url(../images/background.png);
-
-  background-repeat: no-repeat;
-
-  background-size: cover;
-
-  opacity: 0.1;
-
-  content: "";
-}
-
-#errors-in-planning::after {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  z-index: -20;
-
-  background-color: var(--light);
-  background-position: center center;
-
-  content: "";
 }
 
 .feedback-block {
