@@ -79,6 +79,70 @@ p {
   white-space: nowrap;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.color-dark {
+  color: var(--dark);
+}
+
+.color-prime {
+  color: var(--primary);
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-350 {
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
 header::before {
   position: absolute;
 
@@ -116,10 +180,6 @@ header::after {
   content: "";
 }
 
-.color-prime {
-  color: var(--primary);
-}
-
 .dark-title {
   color: var(--dark);
   font-size: 72px;
@@ -148,10 +208,6 @@ header::after {
   padding-top: 16px;
 }
 
-.mr-30 {
-  margin-right: 30px;
-}
-
 .header p {
   margin-top: 16px;
 }
@@ -173,18 +229,6 @@ header::after {
   color: var(--semitransparent-white);
 
   background: var(--primary-dark);
-}
-
-.text-center {
-  text-align: center;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-.color-dark {
-  color: var(--dark);
 }
 
 .video {
@@ -209,10 +253,6 @@ header::after {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-
-.width-350 {
-  width: 350px;
 }
 
 .nav-header {
@@ -252,14 +292,6 @@ header::after {
   color: var(--white);
 }
 
-a {
-  text-decoration: none;
-}
-
-.color-white {
-  color: var(--white);
-}
-
 .card-number {
   margin-bottom: 40px;
 
@@ -268,10 +300,6 @@ a {
   font-size: 64px;
   font-family: 'Neucha', sans-serif;
   line-height: 1;
-}
-
-.ml-0 {
-  margin-left: 0;
 }
 
 .padding-top-bottom-100 {
@@ -316,18 +344,6 @@ a {
   content: "";
 }
 
-.d-flex {
-  display: flex;
-}
-
-.margin-right-30 {
-  margin-right: 30px;
-}
-
-.vertical-align-middle {
-  vertical-align: middle;
-}
-
 .dark-subheader {
   color: var(--semitransparent-dark);
   font-weight: normal;
@@ -362,10 +378,6 @@ a {
   padding-left: 5px;
 
   background-color: var(--brown);
-}
-
-.flex-1 {
-  flex: 1;
 }
 
 #premature-optimization::before {
@@ -403,10 +415,6 @@ a {
   background-position: center center;
 
   content: "";
-}
-
-.margin-left-30 {
-  margin-left: 30px;
 }
 
 .light-subheader {
@@ -631,17 +639,9 @@ a {
   text-decoration: underline;
 }
 
-.mt-100 {
-  margin-top: 100px;
-}
-
 .copyright-text {
   color: black;
 
   font-size: 14px;
   text-align: center;
-}
-
-.mt-16 {
-  margin-top: 16px;
 }
