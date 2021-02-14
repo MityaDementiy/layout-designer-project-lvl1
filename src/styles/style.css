@@ -456,9 +456,10 @@ header::after {
 
 .subscription-form-input {
   width: 423px;
+  height: 50px;
 
   margin-top: 8px;
-  padding: 17px 16px;
+  padding-left: 15px;
 
   border: 0;
 }
@@ -471,7 +472,7 @@ header::after {
   justify-content: center;
 
   width: 72px;
-  height: 49px;
+  height: 52px;
 
   background-color: var(--primary);
 
