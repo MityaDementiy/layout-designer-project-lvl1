@@ -139,6 +139,18 @@ a {
   margin-bottom: 10px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.dark-background {
+  background-color: var(--primary-dark);
+}
+
 header::before {
   position: absolute;
 
@@ -235,14 +247,6 @@ header::after {
   border: 0;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-.nav-block {
-  margin-bottom: 0;
-
-  padding-top: 100px;
-
-  background-color: var(--primary-dark);
 }
 
 .nav-cards {
