@@ -115,10 +115,6 @@ a {
   display: flex;
 }
 
-.margin-right-30 {
-  margin-right: 30px;
-}
-
 .vertical-align-middle {
   vertical-align: middle;
 }
@@ -127,7 +123,7 @@ a {
   flex: 1;
 }
 
-.margin-left-30 {
+.ml-30 {
   margin-left: 30px;
 }
 
