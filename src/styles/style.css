@@ -274,7 +274,7 @@ a {
   padding-bottom: 100px;
 }
 
-.distortion-background-image::before {
+.section-background-image::before {
   position: absolute;
 
   top: 0;
@@ -295,7 +295,7 @@ a {
   content: "";
 }
 
-.distortion-background-light::after {
+.section-background-light::after {
   position: absolute;
 
   top: 0;
@@ -347,7 +347,7 @@ a {
   background-color: var(--brown);
 }
 
-.distortion-background-dark::after {
+.section-background-dark::after {
   position: absolute;
 
   top: 0;
