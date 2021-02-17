@@ -434,7 +434,6 @@ a {
 
   flex-direction: column;
   width: 100%;
-  padding: 0;
 }
 
 .subscription-form-label {
@@ -445,8 +444,8 @@ a {
 .subscription-form-input {
   width: 100%;
   height: 50px;
-
   margin-top: 8px;
+  padding: 0;
   padding-left: 15px;
 
   border: 0;
