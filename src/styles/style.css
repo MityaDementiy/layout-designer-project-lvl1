@@ -167,6 +167,14 @@ a {
   line-height: 72px;
 }
 
+.line-height-26 {
+  line-height: 26px;
+}
+
+.mb-27 {
+  margin-bottom: 27px;
+}
+
 .container {
   width: 100%;
   max-width: 1110px;
