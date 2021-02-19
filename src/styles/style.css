@@ -37,25 +37,24 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-weight: normal;
-  font-size: 72px;
   font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
 }
 
 h2 {
-  font-weight: normal;
   font-size: 60px;
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
 }
 
 h3 {
-  font-weight: normal;
   font-size: 34px;
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
 }
 
 p {
@@ -203,10 +202,6 @@ a {
   padding-top: 16px;
 }
 
-.header p {
-  margin-top: 16px;
-}
-
 .header-button {
   margin-top: 40px;
   padding: 12px 24px;
@@ -257,7 +252,7 @@ a {
   background-color: var(--light);
 }
 
-.nav-card h3 {
+.nav-card-header {
   margin-bottom: 10px;
 
   color: var(--primary);
@@ -267,15 +262,15 @@ a {
   background-color: var(--primary);
 }
 
-.nav-card:hover div {
+.nav-card:hover .card-number {
   color: var(--white);
 }
 
-.nav-card:hover h3 {
+.nav-card:hover .nav-card-header {
   color: var(--white);
 }
 
-.nav-card:hover p {
+.nav-card:hover .nav-card-description {
   color: var(--white);
 }
 
