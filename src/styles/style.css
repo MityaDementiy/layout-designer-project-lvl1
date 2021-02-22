@@ -70,6 +70,10 @@ p {
   margin-bottom: 30px;
 }
 
+.mb-27 {
+  margin-bottom: 27px;
+}
+
 .color-dark {
   color: var(--dark);
 }
