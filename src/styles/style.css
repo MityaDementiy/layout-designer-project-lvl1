@@ -262,10 +262,6 @@ a {
   background-color: var(--primary);
 }
 
-.nav-card:hover .card-number {
-  color: var(--white);
-}
-
 .nav-card:hover .nav-card-header {
   color: var(--white);
 }
@@ -282,6 +278,10 @@ a {
   font-size: 64px;
   font-family: 'Neucha', sans-serif;
   line-height: 1;
+}
+
+.nav-card:hover .card-number {
+  color: var(--white);
 }
 
 .padding-top-bottom-100 {
