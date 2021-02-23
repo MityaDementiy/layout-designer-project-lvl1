@@ -311,10 +311,11 @@ a {
 }
 
 .section-background-light {
+  position: relative;
 
-  z-index: -20;
+  z-index: 0;
 
-  background-color: var(--light);
+  background: var(--light);
 }
 
 .dark-subheader {
@@ -354,8 +355,9 @@ a {
 }
 
 .section-background-dark {
+  position: relative;
 
-  z-index: -20;
+  z-index: 0;
 
   background-color: var(--brown);
 }
