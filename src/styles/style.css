@@ -166,6 +166,10 @@ a {
   line-height: 160%;
 }
 
+.z-index-10 {
+  z-index: 10;
+}
+
 .container {
   width: 100%;
   max-width: 1110px;
@@ -185,7 +189,7 @@ a {
   position: absolute;
   top: 55px;
 
-  right: -107px;
+  right: -270px;
 }
 
 .text-description {
